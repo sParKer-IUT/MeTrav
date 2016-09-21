@@ -1,0 +1,47 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeTrav"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="MeTrav.Map"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar Height="45">
+            <FlyoutBase.AttachedFlyout>
+                <MenuFlyout/>
+            </FlyoutBase.AttachedFlyout>
+            <AppBarButton x:ConnectionId='1' x:Name="prevRoute" Label="Previous"                        >
+                <AppBarButton.Icon>
+                    <BitmapIcon UriSource="Assets/prev.png"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='2' x:Name="info" Label="Info"                   >
+                <AppBarButton.Icon>
+                    <BitmapIcon UriSource="Assets/info.png" HorizontalAlignment="Left" Width="40"/>
+                </AppBarButton.Icon>
+                <Popup>
+                    <Grid Background="#FFE5E5E5" Height="100" Width="100"/>
+                </Popup>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='3' x:Name="nextRoute" Label="Next"                        >
+                <AppBarButton.Icon>
+                    <BitmapIcon UriSource="Assets/next.png"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Maps:MapControl x:Name="mapControl1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="560" Width="380" MapServiceToken="hBico2N0j1jgi-o3yTAtoQ"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="115" Margin="260,10,0,0" VerticalAlignment="Top" Width="130" Source="Assets/legends.png" RenderTransformOrigin="0.5,0.5"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="Assets/smalllogo2.png"/>
+
+    </Grid>
+</Page>
+    
+    
+    
+

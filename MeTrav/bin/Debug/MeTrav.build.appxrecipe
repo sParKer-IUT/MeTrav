@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SPARKER-PC</Machine>
+    <WindowsUser>sParKer</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>972cb7d1-31a3-4ebd-a9da-67867fad6e4c</PackageIdentityName>
+    <IntermediateOutputPath>E:\Imagine cup 2015\MeTrav\MeTrav\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Imagine cup 2015\MeTrav\MeTrav\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\bin\Debug\MeTrav.exe">
+      <PackagePath>MeTrav.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\background page 2.png">
+      <PackagePath>Assets\background page 2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Background.png">
+      <PackagePath>Assets\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\bluePin50.png">
+      <PackagePath>Assets\bluePin50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\directionIcon.png">
+      <PackagePath>Assets\directionIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\greenPin50.png">
+      <PackagePath>Assets\greenPin50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Homepage button GO.png">
+      <PackagePath>Assets\Homepage button GO.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Homepage logo new.png">
+      <PackagePath>Assets\Homepage logo new.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Homepage logo.png">
+      <PackagePath>Assets\Homepage logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\info.png">
+      <PackagePath>Assets\info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\legends.png">
+      <PackagePath>Assets\legends.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\next.png">
+      <PackagePath>Assets\next.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_airport.png">
+      <PackagePath>Assets\pin_airport.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_atm.png">
+      <PackagePath>Assets\pin_atm.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_bank.png">
+      <PackagePath>Assets\pin_bank.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_blank.png">
+      <PackagePath>Assets\pin_blank.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_busStand.png">
+      <PackagePath>Assets\pin_busStand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_hospital.png">
+      <PackagePath>Assets\pin_hospital.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_hotel.png">
+      <PackagePath>Assets\pin_hotel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_policeStation.png">
+      <PackagePath>Assets\pin_policeStation.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_restaurant.png">
+      <PackagePath>Assets\pin_restaurant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_ricshawStand.png">
+      <PackagePath>Assets\pin_ricshawStand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_school.png">
+      <PackagePath>Assets\pin_school.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\pin_trainStation.png">
+      <PackagePath>Assets\pin_trainStation.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\prev.png">
+      <PackagePath>Assets\prev.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\redPin50.png">
+      <PackagePath>Assets\redPin50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\smalllogo2.png">
+      <PackagePath>Assets\smalllogo2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\bin\Debug\MeTrav.xr.xml">
+      <PackagePath>MeTrav.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\bin\Debug\Map.xbf">
+      <PackagePath>Map.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Imagine cup 2015\MeTrav\MeTrav\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

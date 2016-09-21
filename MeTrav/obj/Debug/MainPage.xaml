@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="MeTrav.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeTrav"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Background.png"/>
+        </Grid.Background>
+        <Image x:Name="logo" HorizontalAlignment="Left" Height="86" Margin="61,42,0,0" VerticalAlignment="Top" Width="279" Source="Assets/Homepage logo.png" RenderTransformOrigin="1.104,0.523"/>
+        <Button x:ConnectionId='1' x:Name="submitButton" HorizontalAlignment="Left" Margin="61,501,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.165,0.724" FontSize="21.333" Foreground="White"                            Width="279" Height="102" BorderBrush="#FF464646">
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/directionIcon.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Canvas HorizontalAlignment="Left" Height="207" Margin="41,212,0,0" VerticalAlignment="Top" Width="320" Background="#BF464646"/>
+        <AutoSuggestBox x:ConnectionId='2' x:Name="sourceASBox" HorizontalAlignment="Left" Margin="61,240,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.595,-0.276" FontFamily="Segoe WP" FontSize="21.333" Height="49" Width="279" PlaceholderText="Start Location"                                                                                      />
+        <AutoSuggestBox x:ConnectionId='3' x:Name="destASBox" HorizontalAlignment="Left" Margin="61,352,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.595,-0.276" FontFamily="Segoe WP" FontSize="21.333" Height="49" Width="279" PlaceholderText="Destination"                                                                                  />
+        <CheckBox x:Name="locationcheckBox" Content="Current Location" HorizontalAlignment="Left" Margin="62,277,0,0" VerticalAlignment="Top" FontSize="13.333" Width="188"/>
+
+
+    </Grid>
+</Page>
+
