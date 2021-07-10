@@ -1,0 +1,2 @@
+# MeTrav
+A transport guide for Dhaka city. It takes your location and destination and gives you the optimal route to your destination suggesting public transport with approximate fare. It also show you multiple paths if there is any. It also shows traffic related data so that you can choose your route carefully. If there is no public transportation available to your destination it shows you complex transportation like rickshaw+bus+rickshaw to your destination.
